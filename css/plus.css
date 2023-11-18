@@ -1,0 +1,222 @@
+.navunder{
+    height: 250px;
+    background-color: #fdc702;
+    display: flex;
+    position: absolute;
+    
+}
+
+.fontchu{
+    padding-top: 30px;
+}
+
+.Cambrige{
+    width: 216px;
+    height: 57px;
+    background-color: #1d2a57;
+    margin-left: 70px;
+}
+
+.Dictionaryplus{
+    width: 314px;
+    height: 54px;
+    background-color: #ff8029;
+    margin-top: -30px;
+    margin-left: 70px;
+}
+
+.navblock{
+    margin-top: -0.8px;
+    margin-left: 286px;
+    background-image: url(../images/imgnav.png);
+    background-size: cover;
+    
+}
+
+.mainplus{
+    width: 1062px;
+    background-color: #fff;
+    margin-left: 70px;
+    position: absolute;
+    top: 300px;
+
+}
+
+.blockwordscramble{
+    width: 925px;
+    height: 285px;
+    box-shadow: 5px 5px 10px #888888;
+    margin-left: 70px;
+    margin-top: 30px;
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.photoscramble{
+    width: 460px;
+    background-color: #5d2fc1;
+}
+
+.mainscaramble{
+    margin-left: 20px;
+}
+
+.wordlist{
+    width: 925px;
+    height: 178px;
+    
+    margin-left: 70px;
+    margin-top: 64px;
+    display: flex;
+}
+
+.mainwordlist{
+    margin-left: 20px;
+}
+
+#wordlist1:hover{
+    text-decoration: underline;
+}
+
+.iconcambridge{
+    background-image: url(../images/logoplus3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 10px;
+}
+
+.lispan{
+    list-style: none;
+}
+
+.maincambridewordlist{
+
+}
+.describethings{
+    display: flex;
+    width: 926px;
+    height: 38px;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+}
+
+.Describing{
+    position: relative;
+    left: 20px;
+    top: 10px;
+   
+}
+
+.quizzes{
+    margin-left: 70px;
+    margin-top: 44px;
+}
+
+.Grammarquizzes{
+    width: 926px;
+    height: 280px;
+    background-color: #fff;
+    display: flex;
+    
+}
+
+.mainquizzes{
+    margin-left: 20px;
+}
+
+.lispan1{
+    list-style: none;
+    margin-left: 70px;
+}
+
+.describethings1{
+    display: flex;
+    width: 926px;
+    height: 38px;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+}
+
+.iconcambridge1{
+    background-image: url(../images/logorecommend.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 10px;
+}
+
+.imgquizzes{
+    height: 276px;
+    width: 926px;
+    background-color: #fff;
+    margin-top: 40px;
+    margin-left: 70px;
+    display: flex;
+}
+
+.blockcam{
+    background-image: url(../images/blockcam2.png);
+   
+}
+
+.mainimgquizzes{
+    margin-left: 50px;
+}
+
+.phtorecommended{
+    margin-left: 70px;
+    display: flex;
+}
+
+.animal{
+    
+    border: 1px solid gray;
+    width: 210px;
+}
+
+.box{
+    margin-left: 20px;
+    border: 1px solid gray;
+}
+
+.recommendvideo{
+    margin-left: 70px;
+}
+
+.shoppinginbangkok{
+    width: 212px;
+    height: 185px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.recommendforteacher{
+    margin-left: 70px;
+}
+
+
+.quangcaoplus{
+    margin-left: 1140px;
+    margin-top: 350px;
+    width: 300px;
+    height: 200px;
+   
+    /* background-image: url(../images/signuonow.png);
+    background-size: cover; */
+    
+}
+
+
+.last{
+    width: 300px;
+    height: 356px;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+.footerplus{
+    margin-top: 100px;
+    height: 250px;
+    background-color: #1d2a57;
+}
