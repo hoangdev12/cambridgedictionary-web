@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/Grammar.css">
     <link rel="stylesheet" href="../css/Translate.css">
 <link rel="stylesheet" href="../css/login.css">
+<link rel="stylesheet" href="../html/Signup.html">
 </head>
 
 
@@ -52,14 +53,17 @@
                 <br>
                 <br>
                 <button type="button" onclick="validateLogin()" style="margin-left: 50px; width: 400px; height: 40px; background-color: #234b9a; font-size: 18px; color: #fff;" >Login</button>
-               <a href="../html/Signup.html" style="text-decoration: underline;" class="Register"><h2 style="margin-left: 50px; font-size: 18px;">Sign up</h2>
+               <a href="../html/Signup.html" style="text-decoration: underline;" class="Register"><h2 style="margin-left: 50px; font-size: 18px;">Don't have account</h2>
             </form>
             
             <script>
                 function validateLogin() {
                     var username = document.getElementById('username').value;
                     var password = document.getElementById('password').value;
-            
+
+                    // var registeredUsername = localStorage.getItem('username');
+                    // var registeredPassword = localStorage.getItem('password');
+
                     // Kiểm tra định dạng email
                     var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
                     if (!emailRegex.test(username)) {
@@ -76,7 +80,7 @@
             
                     // Kiểm tra xem tên người dùng và mật khẩu có hợp lệ hay không
                     alert('Đăng nhập thành công!');
-                    window.location.href = "Signup.html"
+                    window.location.href = "user.html";
                 }
 
                 function showpass() {
